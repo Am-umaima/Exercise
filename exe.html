@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<title>exercise</title>
+		<link rel="stylesheet" href="style.css"/>
+		<script src="javascript.js"></script>
+				
+	</head>
+	<body>
+	   <div>
+		<form name="FormStagiaire">
+			<table>
+					<tr>
+						<td>Civilite</td>
+						<td>
+							<select style="width: 115px;">
+							<option value="monsieur" selected>Monsieur</option>
+							<option value="madame">Madame</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td>Nom</td>
+						<td><input type="text" size="30" id="first" name="first-name"></td>
+					</tr>
+					<tr>
+						<td>Prenom</td>
+						<td><input type="text" size="30" id="last" name="family-name"></td>
+					</tr>
+					<tr>
+						<td>Adresse</td>
+						<td><input type="adress" name="Gmail" id="adress"
+						size="70" style="height: 130px;"></td>
+					</tr>
+					<tr>
+						<td>Ville</td>
+						<td><input type="text" size="30" id="ville"name="Ville"> 
+						    Code Postal : <input type="text" id="code"name="Code" style="width: 60px;"></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td><input type="checkbox" name="mycheck" >je souhaite recevoire la newsletter - 
+						courriel : <input type="mail" size="40" id="courriel"name="name"></td>
+					</tr>
+					<tr>
+						<td colspan="2"><input type="button" value="Envoyer" onclick="Veifier();"
+						name="name" style="background-color: white;padding: 5px;"></td>
+					</tr>
+			</table>
+					
+		</form>
+					
+	  </div>
+	</body>
+</html>

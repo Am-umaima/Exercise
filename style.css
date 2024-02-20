@@ -1,0 +1,19 @@
+body
+{
+	background-color:gray;
+	font-size: larger;
+}
+div
+{
+	background-color: gainsboro;
+	width: 80%;
+	margin: auto;
+	margin-top: 5%;
+
+}
+td
+{
+	border:1px solid black;
+	width:10%;
+	padding: 8px;
+}
